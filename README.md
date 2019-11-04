@@ -23,12 +23,10 @@ This transmitter can also be used for simple data modulation using ASK (Amplitud
 Best results were found with the following values:
 
 C1 = 100 nF<br>
-L1 = 100 nH <br>
-(In THT wind copper coil: 4x0.4mm, diameter 3mm)<br>
+L1 = 100 nH (In THT wind copper coil: 4x0.4mm, diameter 3mm)<br>
 R1 = 390 kOhm<br>
 C2 = 15 pF<br>
-L2 = 1 µH<br>
-(In THT wind copper coil: 12x0.4mm, diameter 3mm)<br>
+L2 = 1 µH (In THT wind copper coil: 12x0.4mm, diameter 3mm)<br>
 NPN = MMBT3904 (In THT: 2N3904)<br>
 XTAL = 50 MHz<br>
 3rd harmonic determines transmitter frequency<br>
