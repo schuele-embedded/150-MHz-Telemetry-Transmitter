@@ -23,10 +23,10 @@ Best results were found with the following values:
 C1 = 100 nF<br>
 L1 = 100 nH<br>
 R1 = 390 kOhm<br>
-C2 = 15 pF
-L2 = 1 µH
-NPN = MMBT3904 (2N3904 as THT equivalent)
-XTAL = 50 MHz
+C2 = 15 pF<br>
+L2 = 1 µH<br>
+NPN = MMBT3904 (2N3904 as THT equivalent)<br>
+XTAL = 50 MHz<br>
 
 It can be build on a small pcb or direectly soldered THT components.
 As antenna you can use just copper wire with lambda/4 length wich is for 150MHz: 2m/4 = 50 cm
@@ -44,7 +44,11 @@ A simple, small, light coin cell can be used as power supply.
 
 Maximum datarate 250 baud with ASK/OOK modulation.
 
-As receiver a very low cost china handheld device Baofeng UV-5R (30€) was used and a Telonics RA-14 H-antenna which is matched to 150 MHz. With this setup a maximum distance through forest was found at approximately 350m.
+![alt text](https://github.com/fistlabsdev/150-MHz-Telemetry-Transmitter/harmonics.png)
+
+As receiver a very low cost china handheld device Baofeng UV-5R (30€) was used and a Telonics RA-14 H-antenna which is matched to 150 MHz. 
+
+With this setup a maximum distance through forest was found at even 350m!
 
 
 
