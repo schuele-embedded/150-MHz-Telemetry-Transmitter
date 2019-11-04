@@ -44,7 +44,7 @@ A simple, small, light coin cell can be used as power supply.
 
 Maximum datarate 250 baud with ASK/OOK modulation.
 
-![alt text](https://github.com/fistlabsdev/150-MHz-Telemetry-Transmitter/harmonics.png)
+![alt text](https://github.com/fistlabsdev/150-MHz-Telemetry-Transmitter/harmonics.PNG)
 
 As receiver a very low cost china handheld device Baofeng UV-5R (30€) was used and a Telonics RA-14 H-antenna which is matched to 150 MHz. 
 
