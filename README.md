@@ -20,9 +20,9 @@ The pulse-width and -frequency is determined by the RC-member Rp and Cp. This tr
 
 Best results were found with the following values:
 
-C1 = 100 nF
-L1 = 100 nH
-R1 = 390 kOhm
+C1 = 100 nF<br>
+L1 = 100 nH<br>
+R1 = 390 kOhm<br>
 C2 = 15 pF
 L2 = 1 µH
 NPN = MMBT3904 (2N3904 as THT equivalent)
@@ -31,6 +31,11 @@ XTAL = 50 MHz
 It can be build on a small pcb or direectly soldered THT components.
 As antenna you can use just copper wire with lambda/4 length wich is for 150MHz: 2m/4 = 50 cm
 If this is to long divide it by 2 (25 cm).
+
+The PCB SMD version got an additional matching capacitor Cm with value 2.2pF which was added in series to the antenna.
+
+![alt text](https://github.com/fistlabsdev/150-MHz-Telemetry-Transmitter/smd_ook_circuit.png)
+![alt text](https://github.com/fistlabsdev/150-MHz-Telemetry-Transmitter/transmitter_pic.png)
 
 Some characterization results:
 
