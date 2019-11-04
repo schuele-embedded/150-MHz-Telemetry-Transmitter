@@ -22,15 +22,16 @@ The pulse-width and -frequency is determined by the RC-member Rp and Cp. This tr
 Best results were found with the following values:
 
 C1 = 100 nF<br>
-L1 = 100 nH<br>
+L1 = 100 nH (In THT wind copper coil: 4x0.4mm, diameter 3mm)<br>
 R1 = 390 kOhm<br>
 C2 = 15 pF<br>
-L2 = 1 µH<br>
-NPN = MMBT3904 (2N3904 as THT equivalent)<br>
-XTAL = 50 MHz<br>
+L2 = 1 µH (In THT wind copper coil: 12x0.4mm, diameter 3mm)<br>
+NPN = MMBT3904 (In THT: 2N3904)<br>
+XTAL = 50 MHz, 3rd harmonic determines transmitter frequency<br>
 
-Rp = kOhm
-Cp = µF
+Rp = 0-1 MOhm<br>
+Cp = 0-5 µF<br>
+Combination of Rp and Cp determine the pulse width and Pulsing frequency.
 
 It can be build on a small pcb or direectly soldered THT components.
 As antenna you can use just copper wire with lambda/4 length wich is for 150MHz: 2m/4 = 50 cm
@@ -53,6 +54,8 @@ This graph shows the relative emitted power at harmonic frequencies.
 ![Radiated Power at Harmonics](https://github.com/fistlabsdev/150-MHz-Telemetry-Transmitter/blob/master/harmonics.PNG)
 
 As receiver a very low cost china handheld device Baofeng UV-5R (30€) was used and a Telonics RA-14 H-antenna which is matched to 150 MHz. 
+
+![Receiver UV-5R and RA-14](https://github.com/fistlabsdev/150-MHz-Telemetry-Transmitter/blob/master/receiver.PNG)
 
 With this setup a maximum distance through forest was found at even 350m!
 
