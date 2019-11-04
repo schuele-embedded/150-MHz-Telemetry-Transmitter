@@ -2,6 +2,7 @@
 150 MHz Telemetry Transmitter for Wildlife Tracking
 
 This Transmitter is an adaption of http://http://people.ece.cornell.edu/land/PROJECTS/TRANSMIT/.
+It has some minor changes and is only discrete components as building all coils etc. by hand needs a lot of experienece, luck and effort to get the circuit running well, which I hardly had to experience...
 
 This circuit allows to build an low-cost, tiny, light weight and very low power VHF-pulse-transmitter from scratch.
 It's purpose is to be used in scientific tracking applications for wildlife and livestock.
@@ -16,7 +17,7 @@ The circuit is mainly a single-stage oscillator based on the third harmoinc of a
 
 The pulse-width and -frequency is determined by the RC-member Rp and Cp. This transmitter can also be used for simple data modulation using ASK (Amplitude Shift Keying) with On-Off-Keying (OOK) by removing the Rp and Rc and turning on/off the oscillator by applying/removing voltage (same as Uin respectively GND) directly to resistor R1 (Node "EN").
 
-![alt text](https://github.com/fistlabsdev/150-MHz-Telemetry-Transmitter/blob/master//circuit.png)
+![alt text](https://github.com/fistlabsdev/150-MHz-Telemetry-Transmitter/blob/master/circuit.png)
 
 Best results were found with the following values:
 
@@ -37,8 +38,8 @@ If this is to long divide it by 2 (25 cm).
 
 The PCB SMD version got an additional matching capacitor Cm with value 2.2pF which was added in series to the antenna.
 
-![alt text](https://github.com/fistlabsdev/150-MHz-Telemetry-Transmitter/blob/master//smd_ook_circuit.png)
-![alt text](https://github.com/fistlabsdev/150-MHz-Telemetry-Transmitter/blob/master//transmitter_pic.png)
+![alt text](https://github.com/fistlabsdev/150-MHz-Telemetry-Transmitter/blob/master/smd_ook_circuit.png)
+![alt text](https://github.com/fistlabsdev/150-MHz-Telemetry-Transmitter/blob/master/transmitter_pic.png)
 
 Some characterization results:
 
