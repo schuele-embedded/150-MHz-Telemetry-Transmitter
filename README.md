@@ -17,7 +17,7 @@ The circuit is mainly a single-stage oscillator based on the third harmoinc of a
 
 The pulse-width and -frequency is determined by the RC-member Rp and Cp. This transmitter can also be used for simple data modulation using ASK (Amplitude Shift Keying) with On-Off-Keying (OOK) by removing the Rp and Rc and turning on/off the oscillator by applying/removing voltage (same as Uin respectively GND) directly to resistor R1 (Node "EN").
 
-![alt text](https://github.com/fistlabsdev/150-MHz-Telemetry-Transmitter/blob/master/circuit.png)
+![Circuit of Low-Power VHF-Transmitter](https://github.com/fistlabsdev/150-MHz-Telemetry-Transmitter/blob/master/circuit.png)
 
 Best results were found with the following values:
 
@@ -38,8 +38,8 @@ If this is to long divide it by 2 (25 cm).
 
 The PCB SMD version got an additional matching capacitor Cm with value 2.2pF which was added in series to the antenna.
 
-![alt text](https://github.com/fistlabsdev/150-MHz-Telemetry-Transmitter/blob/master/smd_ook_circuit.png)
-![alt text](https://github.com/fistlabsdev/150-MHz-Telemetry-Transmitter/blob/master/smd_pic.PNG)
+![Circuit used for ASK/OOK](https://github.com/fistlabsdev/150-MHz-Telemetry-Transmitter/blob/master/smd_ook_circuit.png)
+![Assembled Transmitter SMD version](https://github.com/fistlabsdev/150-MHz-Telemetry-Transmitter/blob/master/smd_pic.PNG)
 
 Some characterization results:
 
@@ -49,7 +49,8 @@ A simple, small, light coin cell can be used as power supply.
 Maximum datarate 250 baud with ASK/OOK modulation.
 
 This graph shows the relative emitted power at harmonic frequencies.
-![alt text](https://github.com/fistlabsdev/150-MHz-Telemetry-Transmitter/blob/master/harmonics.PNG)
+![Frequency Spectrum](https://github.com/fistlabsdev/150-MHz-Telemetry-Transmitter/blob/master/spectrum.PNG)
+![Radiated Power at Harmonics](https://github.com/fistlabsdev/150-MHz-Telemetry-Transmitter/blob/master/harmonics.PNG)
 
 As receiver a very low cost china handheld device Baofeng UV-5R (30€) was used and a Telonics RA-14 H-antenna which is matched to 150 MHz. 
 
