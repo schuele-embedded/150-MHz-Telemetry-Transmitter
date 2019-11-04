@@ -39,7 +39,7 @@ If this is to long divide it by 2 (25 cm).
 
 The PCB SMD version got an additional matching capacitor Cm with value 2.2pF which was added in series to the antenna.
 
-![Circuit used for ASK/OOK](https://github.com/fistlabsdev/150-MHz-Telemetry-Transmitter/blob/master/smd_ook_circuit.png)
+![Circuit used for ASK/OOK](https://github.com/fistlabsdev/150-MHz-Telemetry-Transmitter/blob/master/smd_ook_circuit.PNG)
 ![Assembled Transmitter SMD version](https://github.com/fistlabsdev/150-MHz-Telemetry-Transmitter/blob/master/smd_pic.PNG)
 
 Some characterization results:
