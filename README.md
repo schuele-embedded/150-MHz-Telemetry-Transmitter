@@ -1,5 +1,5 @@
 # 150-MHz-Telemetry-Transmitter
-Ultra Low Power VHF-Transmitter for Wildlife Tracking
+Ultra Low Power VHF-Transmitter for Wildlife Radio Tagging
 
 This Transmitter is an adaption of http://http://people.ece.cornell.edu/land/PROJECTS/TRANSMIT/.<br>
 It has some minor changes and uses only discrete components as winding all coils etc. manually needs a lot of experienece, luck and effort to get the circuit running well and robust, which I hardly had to experience...
