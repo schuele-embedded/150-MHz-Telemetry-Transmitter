@@ -16,7 +16,7 @@ The circuit is mainly a single-stage oscillator based on the third harmoinc of a
 
 The pulse-width and -frequency is determined by the RC-member Rp and Cp. This transmitter can also be used for simple data modulation using ASK (Amplitude Shift Keying) with On-Off-Keying (OOK) by removing the Rp and Rc and turning on/off the oscillator by applying/removing voltage (same as Uin respectively GND) directly to resistor R1 (Node "EN").
 
-![alt text](https://github.com/fistlabsdev/150-MHz-Telemetry-Transmitter/circuit.png)
+![alt text](https://github.com/fistlabsdev/150-MHz-Telemetry-Transmitter/blob/master//circuit.png)
 
 Best results were found with the following values:
 
@@ -28,14 +28,17 @@ L2 = 1 µH<br>
 NPN = MMBT3904 (2N3904 as THT equivalent)<br>
 XTAL = 50 MHz<br>
 
+Rp = kOhm
+Cp = µF
+
 It can be build on a small pcb or direectly soldered THT components.
 As antenna you can use just copper wire with lambda/4 length wich is for 150MHz: 2m/4 = 50 cm
 If this is to long divide it by 2 (25 cm).
 
 The PCB SMD version got an additional matching capacitor Cm with value 2.2pF which was added in series to the antenna.
 
-![alt text](https://github.com/fistlabsdev/150-MHz-Telemetry-Transmitter/smd_ook_circuit.png)
-![alt text](https://github.com/fistlabsdev/150-MHz-Telemetry-Transmitter/transmitter_pic.png)
+![alt text](https://github.com/fistlabsdev/150-MHz-Telemetry-Transmitter/blob/master//smd_ook_circuit.png)
+![alt text](https://github.com/fistlabsdev/150-MHz-Telemetry-Transmitter/blob/master//transmitter_pic.png)
 
 Some characterization results:
 
@@ -44,7 +47,7 @@ A simple, small, light coin cell can be used as power supply.
 
 Maximum datarate 250 baud with ASK/OOK modulation.
 
-![alt text](https://github.com/fistlabsdev/150-MHz-Telemetry-Transmitter/harmonics.PNG)
+![alt text](https://github.com/fistlabsdev/150-MHz-Telemetry-Transmitter/blob/master/harmonics.PNG)
 
 As receiver a very low cost china handheld device Baofeng UV-5R (30€) was used and a Telonics RA-14 H-antenna which is matched to 150 MHz. 
 
